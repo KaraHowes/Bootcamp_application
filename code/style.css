@@ -1,0 +1,114 @@
+/* Example styling of a h1 element */
+body {
+  margin: 0px; 
+  background-color: darkgrey;
+  
+}
+
+h1 {
+  font-size: 75px;
+    font-family: 'Archivo Black', sans-serif;
+    padding: 50px 10px;
+    margin: 15px 10px;
+    text-align: center;
+    color: #57575B;
+    letter-spacing: 5px;
+}
+
+p {
+  font-size: 30px;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Archivo Black', sans-serif;
+  margin: 10px 10px;
+  color: #57575B;
+  padding: 10px 10px;
+}
+
+.container{
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  border: black solid 5px;
+  border-radius: 5px;
+  height: auto;
+}
+
+.container:hover{
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color: white;
+  border: hotpink solid 5px;
+  border-radius: 5px;
+} 
+
+.image img{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+a:link{
+  text-decoration: none;
+  color:hotpink;
+}
+
+a:visited {
+  color: hotpink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color:darkgray;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+.list {
+  width: 800px;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ol {
+  font-size: 30px;
+  font-family: Nunito;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  margin: 10px 30px;
+  color: black;
+  font-style: oblique;
+}
+
+span{
+  color: #A39161;
+}
+
+@media (min-width: 650px) {
+    
+  header{
+      justify-content: space-between;
+  }
+ 
+  .container  {
+    flex-grow: 1;
+ }
+ .container:hover{
+   flex-grow: 1;
+ }
+}
